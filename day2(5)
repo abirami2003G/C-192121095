@@ -1,0 +1,44 @@
+5.  Find errors, if any, in the following c++ statements.
+(a) long Boat x.;
+(b) char *cp = vp;	
+(c)	int  code=three;	 
+(d)	int *p=new;	
+(e)	int const *p=total
+(g)	coast int  array_size;
+(h)         int & nurnber = 100;
+(i) float p=2345;
+(j) int else=234;
+(k) char a=’welcome’;
+
+
+
+ANSWERS:
+
+(a) There are two errors in the statement:
+
+The data type and the variable name are in the wrong order. It should be "long x;" instead of "long Boat x;"
+There should not be a period at the end of the statement. The corrected statement is: "long x;"
+(b) There is an error in this statement:
+The data type of the pointer 'vp' is not specified, so it cannot be assigned to a char pointer 'cp'. The corrected statement depends on the data type of 'vp'.
+
+(c) There is an error in this statement:
+The variable 'three' is not defined. It should be defined before it can be assigned to the 'code' variable.
+
+(d) There is an error in this statement:
+The 'new' operator requires a data type. It should be something like "int *p = new int;" to allocate dynamic memory for an integer.
+
+(e) There is no error in this statement.
+
+(g) There is an error in this statement:
+The correct syntax should be "const int array_size;" to declare a constant integer variable.
+
+(h) There is an error in this statement:
+A reference variable cannot be initialized with a constant value. It should be initialized with a variable, like "int number = 100; int& ref = number;"
+
+(i) There is no error in this statement.
+
+(j) There is an error in this statement:
+'else' is a reserved keyword in C++, and cannot be used as a variable name. The corrected statement should have a different variable name.
+
+(k) There is an error in this statement:
+A char variable can only hold one character. The corrected statement should be: "char a[] = 'welcome';" to declare a character array.
